@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel=stylesheet href="candidate.css">
+    <script src="../global.js"></script>
+    <script src="../escapehtml.js"></script>
+    <title>Liste af kandidater</title>
+</head>
+<body>
+
+<header>
+
+    <div class="nav">
+        <ul>
+
+            <li><a href="../index/index.html">Forside</a></li>
+            <li><a href="../searchcandidate/candidate.html">Søg kandidat</a></li>
+            <li><a href="../candidates/screen.html">Skærmbillede</a></li>
+            <li><a href="../index/list-candidates.html">Kandidater</a></li>
+
+        </ul>
+    </div>
+
+</header>
+
+<h1 id="title">Søge kandidat</h1>
+
+
+<div class="list" id="candidate-list">
+    <select id="status-dropdown">
+        <option value="All">Alle</option>
+        <option value="Socialdemokratiet">Socialdemokratiet</option>
+        <option value="Dansk Folkeparti">Dansk Folkeparti</option>
+        <option value="Det konservative Folkeparti">Det konservatie Folkeparti</option>
+        <option value="Socialistisk Folkeparti">Socialistisk Folkeparti</option>
+        <option value="Venstre">Venstre</option>
+        <option value="Enhedslisten">Enhedslisten + De Rød Grønne</option>
+    </select>
+
+    <button id="search">Søg</button>
+    <input id="name-search" placeholder="Søg kandidater">
+</div>
+
+
+<div class="card" id="create-candidate-card">
+
+</div>
+
+<script src="searchcandidates.js"></script>
+
+</body>
+</html>
